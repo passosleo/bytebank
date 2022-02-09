@@ -1,0 +1,17 @@
+.input {
+  color: #F0F0F0;
+  border: 1px solid #F0F0F0;
+  border-radius: 8px;
+  padding: 8px;
+  grid-column: span 2;
+}
+
+.input:focus {
+  background: #F0F0F0;
+  color: #2C394B;
+  transition: 250ms;
+}
+
+.input::placeholder {
+  color: #F0F0F0;
+}

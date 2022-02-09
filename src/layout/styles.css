@@ -1,0 +1,44 @@
+.container {
+  height: 100vh;
+  background: #082032;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container section {
+  width: 80%;
+  border-radius: 24px;
+  background: #334756;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  border-radius: 24px 24px 0 0;
+  background: #2C394B;
+  color: #F0F0F0;
+}
+
+.nav-bar img{
+  width: 150px;
+}
+
+.nav-bar button {
+  width: 135px;
+  background: #2C394B;
+  font-size: 16px;
+  border: 1px solid #F0F0F0;
+  border-radius: 8px;
+  margin: 0 10px;
+  padding: 5px;
+}
+
+.nav-bar button:hover {
+  background: #F0F0F0;
+  color: #2C394B;
+  transition: 250ms;
+}

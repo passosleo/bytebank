@@ -1,5 +1,5 @@
 import React, { forwardRef, useImperativeHandle, useState, useEffect, useRef } from "react";
-import "./Modal.css";
+import "./styles.css";
 
 const Modal = forwardRef(({ title, children }, ref) => {
   const [showModal, setShowModal] = useState(false);

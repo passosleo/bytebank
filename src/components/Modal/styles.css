@@ -41,6 +41,7 @@
 .close {
   color: #F0F0F0;
   font-size: 28px;
+  align-self: flex-start;
 }
 
 .close:hover,

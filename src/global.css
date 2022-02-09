@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  color: #F0F0F0;
+}
+
+button {
+  font-family: Helvetica, sans-serif;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: none;
+  color: #F0F0F0;
+}
+
+input {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
